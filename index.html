@@ -2,14 +2,126 @@
 
 <head>
   <title> Hakuna Matata! </title>
+  <style>
+	body {
+	 background: #74bae6; /* Цвет фона */
+	 /* color: hsl(48, 100%, 50%); /* Цвет текста */
+	}
+
+   </style>
+
+
 </head>
 
 <body>
  
  	<h1> Timon and Pumba Hakuna Matata!  </h1>
-	<img src="images/timon_pumba.jpg" alt="Italian Trulli">
+	<p><img src="images/timon_pumba.jpg" width="900" height="498" alt="Timon and Pumba"></p>
 
 
-</body>
+	<div class="wrap">
+		<div class="block block-one">
+		  <div class="block-title">
+			
+			<big>  <b> І яка назва, вгадали? Давай перевіримо!</b> </big> 
+		 </div>
+		 <form name="form-btn">
+		   <input type="text" placeholder="Назва мультика">
+		   <button type="submit">Перевірити</button>
+		  </form> 
+		</div>
+	  </div>
 
+
+
+<!--
+	  <h1> Crazy squirrel) </h1>
+	  <p><img src="images/belka.jpg" width="900" height="498" alt="Timon and Pumba"></p>
+
+
+	  <div class="wrap">
+		
+		<div class="block block-one">
+		  <div class="block-title">
+
+		
+
+			<big>  <b> І яка назва, вгадали? Давай перевіримо!</b> </big> 
+
+
+
+		 </div>
+		 <form name="form-btn">
+		   <input type="text" placeholder="Назва мультика">
+		   <button type="submit">Перевірити</button>
+		  </form> 
+		</div>
+	  </div>
+
+
+
+-->
+
+	</body>
 </html>
+
+	
+
+
+
+
+
+<!--
+	<button name="nubex" value="Nubex">
+		<img style="vertical-align: middle; width: 24px;" alt="Timon and Pumba" />
+		Натисніть та вгадайте мультик
+	</button>
+	
+-->
+
+
+<!--<button name="nubex" value="Nubex">
+		<img style="vertical-align: middle; width: 24px;" alt="" />
+		Натисніть та вгадайте мультик"
+		</button>
+
+	-->
+		
+
+
+	
+	
+
+<script>
+	function pictures () {
+
+	}
+
+</script>
+
+<!--
+<body>
+	<button onclick="pictures", id="btn" class="btn">Натисніть та вгадайте мультик</button>
+</body>
+-->
+
+<div id="out_picture"></div>
+
+<!--
+<body>
+	<button id="btn" class="btn">Натисніть та вгадайте мультик</button>
+</body>
+-->
+
+<script language="javascript">
+	var i=0;
+	var image=document.getElementById("image");
+	// Добавте свои картинки через запятую
+	var imgs=new Array('/images/belka.png','/images/timon_pumba.png');
+	function imgsrc() {
+		i++;
+		image.src=imgs[i];
+	}
+</script>
+
+
